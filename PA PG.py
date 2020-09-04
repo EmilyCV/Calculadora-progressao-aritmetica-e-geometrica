@@ -1,8 +1,9 @@
 p_a = []
 p_g = []
 inicial = 0
-seq = 0
 opcao = 0
+seq = 0
+
 sequencia = 1
 
 
@@ -52,6 +53,16 @@ def printlista():
     print("—" * 50)
     print("\033[1:52m\033[1:36m", sorted(p_a), "\033[0:0m")
 
+
+# def opcaof(opc):
+#     print("[1] Progressão Aritmética.\n"
+#           "[2] Progressão Geométrica.\n"
+#           "[3] Sair.\n")
+#     opc = int(input("Escolha uma das opções: "))
+#     return opc
+#
+#
+# opcaof(opcao)
 
 while opcao != 3:
     print("[1] Progressão Aritmética.\n"
@@ -121,10 +132,12 @@ while opcao != 3:
                 an = a1 + ((n - 1) * r)
                 p_a.append(an)
                 n += 1
+
+
             # printlista()
             # equacoes_pa()
-    printlista()
-    equacoes_pa()
+        printlista()
+        equacoes_pa()
 
     inicial = 1
     p_a.clear()

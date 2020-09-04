@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E712" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="int" />
+          <option value="str" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Ex_Aula_13.Ex10.menor" />
+          <option value="Ex_Lista.Ex_2.*" />
+          <option value="list.__getitem__" />
+          <option value="Ex_Lista.Ex_3.*" />
+          <option value="Ex_Lista.Ex_6.*" />
+          <option value="list.sorted" />
+          <option value="str.palavras" />
+          <option value="moda" />
+          <option value="tuple.append" />
+          <option value="TDST_2_SEMESTRE.Lista_Ex.Ex_06.Ex_05" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
